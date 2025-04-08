@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Recycling</title>
+
+
+</head>
+
+<style>
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   html,body{
+       width: 100%;
+       height: 120%;
+       background-color: white;
+   }
+   
+   .d1{
+       width: 100%;
+       opacity: 0.9;
+
+   }
+   
+   ul{
+       background-color: black;
+       color: white;
+       display: flex;
+   }
+   
+   li{
+       padding: 10px;
+       list-style: none;
+   }
+   
+   a{
+       color: white;
+       text-decoration: none;
+   }
+   
+   a:hover{
+    font-weight: 700;
+       cursor: grab;
+   }
+
+   
+
+   fieldset{
+    padding: 15px;
+    background-color: rgba(0, 255, 255, 0.244);
+    border: 2px black solid;
+    border-radius: 15px;
+   }
+
+   button{
+    background-color: rgba(0, 94, 255, 0.874);
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+   }
+
+   button:hover{
+    background-color: white;
+    border: 1.5px  rgb(0, 191, 255) solid;
+    font-weight: 700;
+    color:  rgb(0, 191, 255);
+    }
+
+   input{
+    border: none;
+    padding: 3px;
+    border-bottom: 2px solid rgb(0, 191, 255);
+    background-color: rgba(183, 215, 244, 0.416);
+    border-radius: 6px;
+    color: blue;
+    font-weight: bold;
+   }
+
+
+   @media (min-width:768px) {
+
+    ul{
+       background-color: black;
+       color: white;
+       display: flex;
+       justify-content: space-evenly;
+   }
+    
+   }
+
+
+   @media (min-width:1024px) {
+   ul{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+    }
+    }
+
+</style>
+
+
+<body>
+    <div class="d1">
+
+       <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+        
+
+           <li>
+                <a href="Service.html">Services</a>
+            </li>
+        
+
+           <li>
+                <a href="#">Selling</a>
+            </li>
+        
+
+            <li>
+                <a href="About.html">About</a>
+            </li>
+        
+
+            <li>
+                <a href="Contact Us.html">Contact </a>
+            </li>
+        </ul>
+
+
+       </nav>
+
+       <h2 style="text-align: center; margin: 20px;">SELL YOUR USED SOLAR PANELS TODAY!</h2>
+
+       <div class="form-cred">
+
+        <form style="padding: 20px;">
+
+            <fieldset>
+                
+                
+               <b> Give your Credentials : </b>
+
+
+                <br><br>
+    
+                Name : 
+                <br>
+                <input type="text">
+                <br><br>
+    
+                Email :
+                <br>
+                <input type="email" >
+                <br><br>
+    
+                Phone No. :
+                <br>
+                <input type="text">
+                <br><br>
+    
+                Company: 
+                <br>
+                <select name="Company">
+                    <br>
+    
+                    <option value="Waree Energies">Waree Energies</option>
+                    <option selected value="Tata Power Solar">Tata Power Solar</option>
+                    <option value="Adani Solar">Adani Solar</option>
+                    <option value="Vikram Solar">Vikram Solar</option>
+                    <option value="Azure Power">Azure Power</option>
+                    <option value="Loom Solar">Loom Solar</option>
+                    <option value="Other"> Other</option>
+    
+                </select>
+    
+                <br><br>
+    
+            </fieldset>
+    
+           </form>
+
+       </div>
+
+       <br>
+
+        
+       <div class="whole-content" style="padding: 20px;">
+
+        <h5 style="color:  rgb(0, 191, 255);">WHAT ARE YOU ENQUIRING ABOUT?</h5>
+        <br>
+        
+             <input type="radio"  name="enquiring" value="1"/>  Looking to sell excess solar panel modules <br>
+             <input type="radio" name="enquiring" value="2"/>   Third Party Maintenance <br>
+             <input type="radio"  name="enquiring" value="3"/>  Solar Panel Recycling & Destruction<br>
+             <input type="radio"  name="enquiring" value="4"/>  Decommission Solar Panels <br>
+             <input type="radio"  name="enquiring" value="5"/>  Looking to Purchase to Solar Modules <br>
+ 
+ 
+        <br><br>
+ 
+             <h5 style="color:  rgb(0, 191, 255);">ARE YOU A : </h5>
+             <br> 
+ 
+             <input type="radio"  name="name" value="1"/>  Solar Installer <br>
+             <input type="radio" name="name" value="2"/>   Commercial Solar User <br>
+             <input type="radio"  name="name" value="3"/>  Solar OEM Manufacturer<br>
+             <input type="radio"  name="name" value="4"/>  Home Owner <br>
+             <input type="radio"  name="name" value="5"/>  Other <br>
+ 
+ 
+             <br>
+ 
+             <button style="width: 100%;">SUBMIT</button>
+ 
+             <br><br>
+ 
+             By submitting this form, I agree receive an email response from Solar Recycling. 
+
+       </div>
+
+
+    </div>
+</body>
+</html>
